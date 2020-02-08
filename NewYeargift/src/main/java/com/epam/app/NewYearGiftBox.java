@@ -54,7 +54,7 @@ public class NewYearGiftBox
     			System.out.println("Map is empty");
     		} else {
     			System.out.println(map);
-    		}*/
+    		}
         System.out.println("Fill the gift box with different sweets Available:");
         while(n) {
        
