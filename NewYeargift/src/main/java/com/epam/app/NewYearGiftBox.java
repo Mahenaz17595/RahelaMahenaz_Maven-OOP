@@ -15,6 +15,27 @@ public class NewYearGiftBox
         
         Scanner sc=new Scanner(System.in);
         System.out.println("Fill the gift box with different sweets Available:");
+        
+        /*HashMap<String, Integer> map = new HashMap<String, Integer>();
+    	print(map);
+    	map.put("Dark Chocloate", 20);
+    	map.put("White Chocolate", 30);
+    	map.put("Milk Chocolate", 10);
+    	map.put("GulabJamun", 50);
+    	map.put("Halva", 80);
+    	if(map.containsKey("Dark Chocloate")) {
+    		Integer a = map.get("Dark Chocloate");
+    		System.out.println("Price of sweet is " + a);
+    	}
+    	}
+    //	System.out.println("");
+        
+        public static void print(Map<String, Integer>map) {
+    		if(map.isEmpty()) {
+    			System.out.println("Map is empty");
+    		} else {
+    			System.out.println(map);
+    		}*/
         while(n) {
        
         System.out.println("AVAILABLE SWEETS");
