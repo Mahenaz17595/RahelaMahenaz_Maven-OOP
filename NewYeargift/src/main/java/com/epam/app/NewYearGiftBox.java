@@ -14,6 +14,47 @@ public class NewYearGiftBox
         Boolean n=true;
         
         Scanner sc=new Scanner(System.in);
+        
+        HashMap<String, Integer> map = new HashMap<String, Integer>();
+    	print(map);
+    	map.put("Dark Chocloate", 20);
+    	map.put("White Chocolate", 30);
+    	map.put("Milk Chocolate", 10);
+        map.put("Candies", 60);
+    	map.put("GulabJamun", 50);
+    	map.put("Halva", 80);
+    	if(map.containsKey("Dark Chocloate")) {
+    		Integer a = map.get("Dark Chocloate");
+    		System.out.println("Price of sweet is " + a);
+    	}
+        if(map.containsKey("White Chocloate")) {
+    		Integer b = map.get("White Chocloate");
+    		System.out.println("Price of sweet is " + b);
+    	}
+        if(map.containsKey("Milk Chocloate")) {
+    		Integer c = map.get("Milk Cocolate");
+    		System.out.println("Price of sweet is " + c);
+    	}
+        if(map.containsKey("Candies")) {
+    		Integer d = map.get("Candies");
+    		System.out.println("Price of sweet is " + d);
+    	}
+        if(map.containsKey("Gulab Jamun")) {
+    		Integer e = map.get("Gulab Jamun");
+    		System.out.println("Price of sweet is " + e);
+    	}
+        if(map.containsKey("Halva")) {
+    		Integer f = map.get("Halva");
+    		System.out.println("Price of sweet is " + f);
+    	}
+    	}
+        
+        public static void print(Map<String, Integer>map) {
+    		if(map.isEmpty()) {
+    			System.out.println("Map is empty");
+    		} else {
+    			System.out.println(map);
+    		}*/
         System.out.println("Fill the gift box with different sweets Available:");
         while(n) {
        
